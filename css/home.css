@@ -159,14 +159,32 @@ html {
     color: #ffff;
 }
 
-.countdown-text-wrap {
+
+
+.countdown-text-wrap h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
     text-align: center;
-    align-self: center;
+    color: #FFFFFF;
+    margin-bottom: 0px;
 }
 
-.countdown-section-right {
+.countdown-text-wrap p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
     text-align: center;
-    align-self: center;
+
+    color: #FFFFFF;
+}
+
+.countdown-section-right p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
     line-height: 128.79%;
     text-align: center;
     letter-spacing: 0.15em;
@@ -174,12 +192,9 @@ html {
 }
 
 .countdown-bg {
-    /* background-color: rgb(73 14 111 / 75%);
-    backdrop-filter: blur(5px) saturate(180%); */
     background: linear-gradient(113.77deg, rgba(73, 14, 111, 0.8) 21.1%, rgba(163, 26, 126, 0.464) 100%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px 0px 0px 15px;
-    height: 156px;
     color: #ffff;
 }
 
@@ -187,7 +202,7 @@ html {
     position: fixed;
     bottom: 40px;
     right: 0px;
-    width: 100%;
+    width: 35%;
 }
 
 .countdown-section>.container {
@@ -219,3 +234,29 @@ html {
 }
 
 .countdown-text>i {}
+
+.clock-canvas canvas {
+    width: 46px !important;
+    height: 46px !important;
+}
+
+.clock-canvas .kineticjs-content {
+    width: 46px !important;
+    height: 46px !important;
+}
+
+.clock-canvas {
+    width: 46px !important;
+    height: 46px !important;
+    padding-bottom: 0px !important;
+}
+.countdown-text-wrap{
+    background: linear-gradient(105.21deg, rgba(73, 14, 111, 0.8) -30.19%, rgba(163, 26, 126, 0.176) 100%);
+    border-radius: 15px 0px 0px 15px;
+    padding: 39px 21px 13px 21px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.countdown-clock{
+    padding: 33px 23px;
+}

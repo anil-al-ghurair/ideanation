@@ -1,14 +1,4 @@
-.countdown-container {
-    position: relative;
-    top: 30%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
-
 .clock-item .inner {
-    height: 0px;
-    padding-bottom: 100%;
     position: relative;
     width: 100%;
 }
@@ -17,26 +7,41 @@
     background-color: rgba(255, 255, 255, .1);
     border-radius: 50%;
     height: 0px;
-    padding-bottom: 100%;
 }
 
 .text {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
-    margin-top: -50px;
-    position: absolute;
     text-align: center;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     width: 100%;
 }
 
 .text .val {
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    left: 42%;
 }
 
 .text .type-time {
-    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    padding-top: 2px;
+    margin-bottom: 0px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -49,4 +54,14 @@
     .clock-item {
         margin: 0px 30px 30px 30px;
     }
+}
+.countdown-btn{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 20px;
+display: block;
 }

@@ -15,20 +15,20 @@ $(document).ready(function () {
         canvas_days: "canvas_days",
       },
       seconds: {
-        borderColor: "#7995D5",
-        borderWidth: "6",
+        borderColor: "#AEA444",
+        borderWidth: "4",
       },
       minutes: {
-        borderColor: "#ACC742",
-        borderWidth: "6",
+        borderColor: "#AEA444",
+        borderWidth: "4",
       },
       hours: {
-        borderColor: "#ECEFCB",
-        borderWidth: "6",
+        borderColor: "#AEA444",
+        borderWidth: "4",
       },
       days: {
-        borderColor: "#FF9900",
-        borderWidth: "6",
+        borderColor: "#AEA444",
+        borderWidth: "4",
       },
     },
     function () {
