@@ -1,0 +1,221 @@
+body {
+    background: url('../images/home-background.svg');
+    color: #fff;
+    background-size: cover;
+    font-family: 'Gill Sans';
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    /* background-color: #274064 !important; */
+}
+
+html {
+    height: 100%
+}
+
+.ideanation-text {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 93px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.75);
+}
+
+.ideanation-description {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 99%;
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.75);
+    display: block;
+}
+
+
+.ideanation-header-div {
+    font-size: 80px;
+    width: 502px;
+    height: 93px;
+    font-family: "Gill Sans";
+    color: #fff;
+}
+
+.Innovation-survives-div {
+    width: 502px;
+    height: 60px;
+    left: 0px;
+    top: 87px;
+
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 99%;
+    /* or 30px */
+
+    text-align: center;
+    letter-spacing: 0.065em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.75);
+}
+
+#navbarNav>ul>li>a {
+    color: #ffffff;
+}
+
+.tab-content {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius-medium);
+    padding: 45px;
+}
+
+.nav-tabs {
+    background-color: var(--section-bg-color);
+    border-radius: var(--border-radius-large);
+    border-bottom: 0;
+    padding: 15px;
+}
+
+.nav-tabs .nav-link {
+    border-radius: var(--border-radius-large);
+    border: 0;
+    padding: 15px 25px;
+    transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:first-child {
+    margin-right: 15px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    background: var(--white-color);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    color: var(--primary-color);
+}
+
+.nav-tabs h5 {
+    color: var(--p-color);
+    margin-bottom: 0;
+}
+
+.nav-tabs .nav-link.active h5,
+.nav-tabs .nav-link:focus h5,
+.nav-tabs .nav-link:hover h5 {
+    color: var(--primary-color);
+}
+
+.custom-btn {
+    border: 2px solid transparent;
+    border-radius: 15px !important;
+    color: #ffffff !important;
+    border-color: #ffff !important;
+    padding: 10px 20px;
+}
+
+.navbar-toggler {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    width: 30px;
+    height: 35px;
+    outline: none;
+    color: #ffff;
+}
+
+.section-overlay {
+    padding-top: 150px;
+
+}
+
+.bi-arrow-right-circle-fill {
+    padding-right: 10px;
+}
+
+.countdown-text-info {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 20px;
+    padding: 35px;
+}
+
+.countdown-text {
+    /* background: linear-gradient(113.77deg, rgba(73, 14, 111, 0.8) 21.1%, rgba(163, 26, 126, 0.464) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 156px;
+    color: #ffff;
+}
+
+.countdown-text-wrap {
+    text-align: center;
+    align-self: center;
+}
+
+.countdown-section-right {
+    text-align: center;
+    align-self: center;
+    line-height: 128.79%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+}
+
+.countdown-bg {
+    /* background-color: rgb(73 14 111 / 75%);
+    backdrop-filter: blur(5px) saturate(180%); */
+    background: linear-gradient(113.77deg, rgba(73, 14, 111, 0.8) 21.1%, rgba(163, 26, 126, 0.464) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 0px 0px 15px;
+    height: 156px;
+    color: #ffff;
+}
+
+.countdown-section {
+    position: fixed;
+    bottom: 40px;
+    right: 0px;
+    width: 100%;
+}
+
+.countdown-section>.container {
+    margin-right: 0%;
+}
+
+
+.navbar-toggler .navbar-toggler-icon {}
+
+.countdown-text>h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.countdown-text>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.countdown-text>a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.countdown-text>i {}
