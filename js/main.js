@@ -93,6 +93,7 @@ $(document).ready(function () {
   });
  
 })
+
 function getRequired(selector) {
   return $(selector).attr('data-required');
 };
