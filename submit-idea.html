@@ -8,115 +8,186 @@
     <title>Ideanation - Know More</title>
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="css/footer.css" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="body-container-wrapper">
-        <header>
+        <header style="background-color: #89317a;position: fixed;width: 100%;top: 0;">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <!-- <a class="navbar-brand" href="index.html">
                         Festava Live
                     </a> -->
-                    <img src="../images/LOGOWhite.svg">
-        
+                    <img src="./images/LOGOWhite.svg">
+
                     <a href="" class="btn custom-btn d-lg-none ms-auto me-4">Be an ideanator</a>
-        
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-        
+
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                             <li class="nav-item">
-                                <a class="nav-link click-scroll active" href="#section_1">About Us</a>
+                                <a class="nav-link click-scroll inactive" href="#section_1">About Us</a>
                             </li>
-        
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll inactive" href="#section_2">Gallery</a>
                             </li>
-        
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll inactive" href="#section_3">Documents</a>
                             </li>
-        
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll inactive" href="#section_4">News</a>
                             </li>
-        
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll inactive" href="#section_5">Library</a>
                             </li>
-        
+
                             <li class="nav-item">
                                 <a class="nav-link click-scroll inactive" href="#section_6">Contact</a>
                             </li>
                         </ul>
-        
-                        <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Be an ideanator</a>
+
                     </div>
                 </div>
             </nav>
         </header>
-<div id="__main">
+        <div id="__main">
 
-    <div class="submit__idea-container">
-    <div class="submit__idea-row">
-        <div class="container">
-            <h2 class="submit__title">
-                Ponder.. Create.. Ideate!
-            </h2>
-            <form action="" id="submitForm">
-                <div class="form_field">
-                    <label for="name">name</label>
-                    <input id="name" name="name" type="text"
-                    class="name" data-required=" name is required"
-                    data-alphabetsnspace="Please Enter Only Letters"
-                    data-minLength="Your name must consist of at least 2 characters"></input>
+            <div class="submit__idea-container">
+                <div class="submit__idea-row">
+                    <div class="container">
+                        <h2 class="submit__title">
+                            Ponder.. Create.. Ideate!
+                        </h2>
+                        <form action="" id="submitForm">
+                            <div class="form_field">
+                                <label for="name">name</label>
+                                <input id="name" name="name" type="text" class="name" data-required=" name is required"
+                                    data-alphabetsnspace="Please Enter Only Letters"
+                                    data-minLength="Your name must consist of at least 2 characters"></input>
+                            </div>
+                            <div class="form_field">
+                                <label for="email">email</label>
+                                <input id="email" name="email" type="text" class="email"
+                                    data-required=" email is required"></input>
+                            </div>
+                            <div class="form_field">
+                                <label for="unit">business unit</label>
+                                <input id="unit" name="unit" type="text" class="unit"
+                                    data-required=" This field is required"></input>
+                            </div>
+                            <div class="form_field">
+                                <label for="phone">Phone</label>
+                                <input id="phone" name="phone" type="text" class="phone"
+                                    data-required=" This field is required"></input>
+                            </div>
+                            <div class="form_field wd-100 clearfix">
+                                <label for="idea">Please articulate the idea</label>
+                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+                            <div class="form_field wd-100 clearfix">
+                                <label for="idea">What is the Solution Output and Success Criteria expected</label>
+                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+                            <div class="form_field wd-100 clearfix">
+                                <label for="value">What value will it bring to business</label>
+                                <textarea name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+                            <input class=" button__cls clearfix" type="submit" value="submit" id="submit__idea">
+                            <input class=" button__cls clearfix" type="submit" value="cancel" id="cancel__idea">
+                        </form>
+                    </div>
                 </div>
-                <div class="form_field">
-                    <label for="email">email</label>
-                    <input id="email" name="email" type="text"
-                    class="email" data-required=" email is required"></input>
-                </div>
-                <div class="form_field">
-                    <label for="unit">business unit</label>
-                    <input id="unit" name="unit" type="text"
-                    class="unit" data-required=" This field is required"></input>
-                </div>
-                <div class="form_field">
-                    <label for="phone">Phone</label>
-                    <input id="phone" name="phone" type="text"
-                    class="phone" data-required=" This field is required"></input>
-                </div>
-                <div class="form_field wd-100 clearfix">
-                    <label for="idea">Please articulate the idea</label>
-                  <textarea name="" id="" cols="30" rows="5"></textarea>
-                </div>
-                <div class="form_field wd-100 clearfix">
-                    <label for="idea">What is the Solution Output and Success Criteria expected</label>
-                  <textarea name="" id="" cols="30" rows="5"></textarea>
-                </div>
-                <div class="form_field wd-100 clearfix">
-                    <label for="value">What value will it bring to business</label>
-                  <textarea name="" id="" cols="30" rows="5"></textarea>
-                </div>
-                <input class=" button__cls clearfix" type="submit" value="submit"
-                id="submit__idea">
-            </form>
+            </div>
         </div>
     </div>
-</div>
-</div>
-<footer>
-  footer
+    <section>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <div class="logo-1"><img
+                                    src="https://aginvestment.sharepoint.com/sites/Ideanation/IdeanationAssets/icons/algurair-logo.svg">
+                            </div>
+                            <div class="logo-2"><img
+                                    src="https://aginvestment.sharepoint.com/sites/Ideanation/IdeanationAssets/icons/Logo-white.svg">
+                            </div>
+                            <div class="social-icon-wrapper" style="display: none;">
+                                <ul class="social-icon">
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/facebook.svg"></a>
+                                    </li>
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/instagram.svg"></a>
+                                    </li>
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/twitter.svg"></a>
+                                    </li>
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/youtube.svg"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>NAVIGATION </h4>
+                            <ul>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/learning.aspx">Learning</a>
+                                </li>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/LearnMore.aspx">Events</a>
+                                </li>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/Gallery.aspx">Gallery</a>
+                                </li>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/SubmitIdea.aspx">Submit
+                                        an Idea</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>CONTACT</h4>
+                            <ul>
+                                <li><a href="#"><span class="footer-list-icon"><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/d5d67007-eaf6-474d-a3ab-792bc68ce946/info.svg"></span>ideanation@al-ghurair.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>ADDRESS</h4>
+                            <p>Al Rigga St - Deira<br>Dubai<br>United Arab Emirates<br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom py-4">
+                <div class="text-center">
+                    <div class="copyright">
+                        <p>© 2022 Al Ghurair Investments. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
     <script src="js/lib/jquery-3.3.1.min.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script src="js/lib/magnific-popup.js"></script>
     <script src="js/lib/jquery.validate.min.js"></script>
     <script src="js/lib/slick.min.js"></script>
     <script src="js/main.js"></script>
-</footer>
+
+</body>

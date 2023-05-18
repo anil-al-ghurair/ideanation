@@ -4,7 +4,8 @@
 <head>
     <title>Ideanation New UI</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/home.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./css/countdown.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -12,158 +13,228 @@
 </head>
 
 <body>
+    <div id="home">
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <img src="./images/LOGOwhite.svg"></img>
+                    <a href="" class="btn custom-btn d-lg-none ms-auto me-4">Be an ideanator</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-    <nav class="navbar navbar-expand-lg mt-2">
-        <div class="container">
-            <!-- <a class="navbar-brand" href="index.html">
-                Festava Live
-            </a> -->
-            <img src="./images/LOGOwhite.svg"></img>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">About Us</a>
+                            </li>
 
-            <a href="" class="btn custom-btn d-lg-none ms-auto me-4">Be an ideanator</a>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Gallery</a>
+                            </li>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Documents</a>
+                            </li>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_1">About Us</a>
-                    </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">News</a>
+                            </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_2">Gallery</a>
-                    </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Library</a>
+                            </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_3">Documents</a>
-                    </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                            </li>
+                        </ul>
 
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_4">News</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_5">Library</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#section_6">Contact</a>
-                    </li>
-                </ul>
-
-                <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Be an ideanator</a>
-            </div>
-        </div>
-    </nav>
-
-    <section class="hero-section" id="section_1">
-        <div class="section-overlay"></div>
-
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="row">
-
-                <div class="col-12 mt-auto mb-5 text-center">
-                    <span class="ideanation-text">Ideanation.</span>
-
-                    <span class="ideanation-description mb-4">Innovation survies only when <br />people belive in their
-                        own
-                        ideas.</span>
-
-                    <a class="btn custom-btn smoothscroll" href="#section_2"> <i
-                            class="bi-arrow-right-circle-fill"></i>LEARN
-                        MORE</a>
+                        <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Be an ideanator</a>
+                    </div>
                 </div>
+            </nav>
+        </section>
+
+        <section class="hero-section" id="section_1">
+            <div class="section-overlay"></div>
+
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="row">
+
+                    <div class="col-12 mt-auto mb-5 text-center">
+                        <span class="ideanation-text">Ideanation.</span>
+
+                        <span class="ideanation-description mb-4">Innovation survies only when <br />people belive in
+                            their
+                            own
+                            ideas.</span>
+
+                        <a class="btn custom-btn smoothscroll" href="#section_2"> <i
+                                class="bi-arrow-right-circle-fill"></i>LEARN
+                            MORE</a>
+                    </div>
 
 
+                </div>
             </div>
-        </div>
 
-    </section>
-    <section class="countdown-section section-padding" id="section_2">
-       <div class="countdown-row">
-                    <div class="row countdown-bg">
-                        <div class="col-lg-5 countdown-text-wrap">
+        </section>
 
-                            <h4>Hackathon</h4>
+        <section class="countdown-section section-padding" id="section_2">
+            <div class="countdown-row">
+                <div class="row countdown-bg">
+                    <div class="col-lg-5 countdown-text-wrap">
 
-                            <p class="mb-0">Strengthening business agility through Data</p>
+                        <h4>Hackathon</h4>
 
-                            <a class="countdown-btn"> <span>Learn More</span>
-                            </a>
+                        <p class="mb-0">Strengthening business agility through Data</p>
 
+                        <a class="countdown-btn"> <span>Learn More</span>
+                        </a>
+
+                    </div>
+                    <div class="col-lg-7 countdown-clock">
+                        <div class="countdown-section-right">
+                            <p>COUNTDOWN</p>
                         </div>
-                        <div class="col-lg-7 countdown-clock">
-                            <div class="countdown-section-right">
-                                <p>COUNTDOWN</p>
-                            </div>
-                            <div class="countdown-container">
-                                <div class="clock row">
+                        <div class="countdown-container">
+                            <div class="clock row">
 
-                                    <!-- days -->
-                                    <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas_days" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-days type-time">DAYS</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- hours -->
-
-                                    <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas_hours" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-hours type-time">HOURS</p>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- minutes -->
-                                    <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas_minutes" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-minutes type-time">MINUTES</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- seconds -->
-                                    <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-                                        <div class="wrap">
-                                            <div class="inner">
-                                                <div id="canvas_seconds" class="clock-canvas"></div>
-                                                <div class="text">
-                                                    <p class="val">0</p>
-                                                    <p class="type-seconds type-time">SECONDS</p>
-                                                </div>
+                                <!-- days -->
+                                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_days" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-days type-time">DAYS</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
+                                <!-- hours -->
+
+                                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_hours" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-hours type-time">HOURS</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- minutes -->
+                                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_minutes" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-minutes type-time">MINUTES</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- seconds -->
+                                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+                                    <div class="wrap">
+                                        <div class="inner">
+                                            <div id="canvas_seconds" class="clock-canvas"></div>
+                                            <div class="text">
+                                                <p class="val">0</p>
+                                                <p class="type-seconds type-time">SECONDS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <section>
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <div class="logo-1"><img
+                                    src="https://aginvestment.sharepoint.com/sites/Ideanation/IdeanationAssets/icons/algurair-logo.svg">
+                            </div>
+                            <div class="logo-2"><img
+                                    src="https://aginvestment.sharepoint.com/sites/Ideanation/IdeanationAssets/icons/Logo-white.svg">
+                            </div>
+                            <div class="social-icon-wrapper" style="display: none;">
+                                <ul class="social-icon">
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/facebook.svg"></a>
+                                    </li>
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/instagram.svg"></a>
+                                    </li>
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/twitter.svg"></a>
+                                    </li>
+                                    <li><a href=""><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/youtube.svg"></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>NAVIGATION </h4>
+                            <ul>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/learning.aspx">Learning</a>
+                                </li>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/LearnMore.aspx">Events</a>
+                                </li>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/Gallery.aspx">Gallery</a>
+                                </li>
+                                <li> <a
+                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/SubmitIdea.aspx">Submit
+                                        an Idea</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>CONTACT</h4>
+                            <ul>
+                                <li><a href="#"><span class="footer-list-icon"><img
+                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/d5d67007-eaf6-474d-a3ab-792bc68ce946/info.svg"></span>ideanation@al-ghurair.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>ADDRESS</h4>
+                            <p>Al Rigga St - Deira<br>Dubai<br>United Arab Emirates<br></p>
+                        </div>
                     </div>
-                </div>    
+                </div>
+            </div>
+            <div class="footer-bottom py-4">
+                <div class="text-center">
+                    <div class="copyright">
+                        <p>© 2022 Al Ghurair Investments. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </section>
-
     <!-- Js files -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

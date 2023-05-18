@@ -1,15 +1,14 @@
-body {
-    background: url('../images/home-background.svg');
+html {
+    height: 100%
+}
+
+div#home {
+    background-image: url('../images/home-background.svg');
     color: #fff;
     background-size: cover;
     font-family: 'Gill Sans';
     background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
-    /* background-color: #274064 !important; */
-}
-
-html {
-    height: 100%
+    height: 100vh;
 }
 
 .ideanation-text {
@@ -209,9 +208,6 @@ html {
     margin-right: 0%;
 }
 
-
-.navbar-toggler .navbar-toggler-icon {}
-
 .countdown-text>h3 {
     font-weight: 600;
     font-size: 20px;
@@ -233,8 +229,6 @@ html {
     text-align: center;
 }
 
-.countdown-text>i {}
-
 .clock-canvas canvas {
     width: 46px !important;
     height: 46px !important;
@@ -250,13 +244,15 @@ html {
     height: 46px !important;
     padding-bottom: 0px !important;
 }
-.countdown-text-wrap{
+
+.countdown-text-wrap {
     background: linear-gradient(105.21deg, rgba(73, 14, 111, 0.8) -30.19%, rgba(163, 26, 126, 0.176) 100%);
     border-radius: 15px 0px 0px 15px;
     padding: 39px 21px 13px 21px;
     text-align: center;
     box-sizing: border-box;
 }
-.countdown-clock{
+
+.countdown-clock {
     padding: 33px 23px;
 }
