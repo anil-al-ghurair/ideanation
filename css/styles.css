@@ -4874,7 +4874,8 @@ div#home {
 }
 
 .countdown-clock {
-    padding: 20px 20px
+    padding: 20px 20px;
+    background: linear-gradient(113.77deg, rgba(73, 14, 111, 0.8) 21.1%, rgba(163, 26, 126, 0.464) 100%);
 }
 
 .clock-item .inner {
