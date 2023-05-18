@@ -16,15 +16,10 @@
 
 <body>
     <div class="body-container-wrapper">
-        <header style="background-color: #89317a;position: fixed;width: 100%;top: 0;">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <!-- <a class="navbar-brand" href="index.html">
-                        Festava Live
-                    </a> -->
-                    <img src="./images/LOGOWhite.svg">
-
-                    <a href="" class="btn custom-btn d-lg-none ms-auto me-4">Be an ideanator</a>
+        <header id="header-purple" class="header-purple">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a href="index.html"><img src="images/LOGOWhite.svg" alt="ideanation-logo" id="logo"></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,14 +51,17 @@
                             <li class="nav-item">
                                 <a class="nav-link click-scroll inactive" href="#section_6">Contact</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="btn custom-btn ms-auto me-4" href="#section_6">Be an ideanator</a>
+                            </li>
                         </ul>
 
                     </div>
-                </div>
-            </nav>
+
+                </nav>
+            </div>
         </header>
         <div id="__main">
-
             <div class="submit__idea-container">
                 <div class="submit__idea-row">
                     <div class="container">
@@ -112,82 +110,64 @@
             </div>
         </div>
     </div>
-    <section>
-        <footer id="footer">
-            <div class="footer-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 footer-contact">
-                            <div class="logo-1"><img
-                                    src="https://aginvestment.sharepoint.com/sites/Ideanation/IdeanationAssets/icons/algurair-logo.svg">
-                            </div>
-                            <div class="logo-2"><img
-                                    src="https://aginvestment.sharepoint.com/sites/Ideanation/IdeanationAssets/icons/Logo-white.svg">
-                            </div>
-                            <div class="social-icon-wrapper" style="display: none;">
-                                <ul class="social-icon">
-                                    <li><a href=""><img
-                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/facebook.svg"></a>
-                                    </li>
-                                    <li><a href=""><img
-                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/instagram.svg"></a>
-                                    </li>
-                                    <li><a href=""><img
-                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/twitter.svg"></a>
-                                    </li>
-                                    <li><a href=""><img
-                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/741d4b36-9400-435b-9dfc-b9c0b4717db1/youtube.svg"></a>
-                                    </li>
-                                </ul>
-                            </div>
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <div class="logo-1"><img src="images/footer/algurair-logo.svg">
                         </div>
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>NAVIGATION </h4>
-                            <ul>
-                                <li> <a
-                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/learning.aspx">Learning</a>
-                                </li>
-                                <li> <a
-                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/LearnMore.aspx">Events</a>
-                                </li>
-                                <li> <a
-                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/Gallery.aspx">Gallery</a>
-                                </li>
-                                <li> <a
-                                        href="https://aginvestment.sharepoint.com/sites/Ideanation/SitePages/SubmitIdea.aspx">Submit
-                                        an Idea</a></li>
-                            </ul>
+                        <div class="logo-2"><img src="images/footer/Logo-white.svg">
                         </div>
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>CONTACT</h4>
-                            <ul>
-                                <li><a href="#"><span class="footer-list-icon"><img
-                                                src="https://aginvestment.sharepoint.com/sites/Ideanation/SiteAssets/Lists/d5d67007-eaf6-474d-a3ab-792bc68ce946/info.svg"></span>ideanation@al-ghurair.com</a>
+                        <div class="social-icon-wrapper" style="display: none;">
+                            <ul class="social-icon">
+                                <li><a href=""><img src="images/footer/facebook.svg"></a>
+                                </li>
+                                <li><a href=""><img src="images/footer/instagram.svg"></a>
+                                </li>
+                                <li><a href=""><img src="images/footer/twitter.svg"></a>
+                                </li>
+                                <li><a href=""><img src="images/footer/youtube.svg"></a>
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-3 col-md-6 footer-links">
-                            <h4>ADDRESS</h4>
-                            <p>Al Rigga St - Deira<br>Dubai<br>United Arab Emirates<br></p>
-                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>NAVIGATION </h4>
+                        <ul>
+                            <li> <a href="learning.html">Learning</a>
+                            </li>
+                            <li> <a href="events.html">Events</a>
+                            </li>
+                            <li> <a href="gallery.html">Gallery</a>
+                            </li>
+                            <li> <a href="submit-idea.html">Submit
+                                    an Idea</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>CONTACT</h4>
+                        <ul>
+                            <li><a href="#"><span class="footer-list-icon"><img
+                                            src="images/footer/info.svg"></span>ideanation@al-ghurair.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>ADDRESS</h4>
+                        <p>Al Rigga St - Deira<br>Dubai<br>United Arab Emirates<br></p>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom py-4">
-                <div class="text-center">
-                    <div class="copyright">
-                        <p>© 2022 Al Ghurair Investments. All Rights Reserved.</p>
-                    </div>
+        </div>
+        <div class="footer-bottom py-4">
+            <div class="text-center">
+                <div class="copyright">
+                    <p>© 2022 Al Ghurair Investments. All Rights Reserved.</p>
                 </div>
             </div>
-        </footer>
-    </section>
-
-    <script src="js/lib/jquery-3.3.1.min.js"></script>
-    <script src="js/lib/bootstrap.min.js"></script>
-    <script src="js/lib/magnific-popup.js"></script>
-    <script src="js/lib/jquery.validate.min.js"></script>
-    <script src="js/lib/slick.min.js"></script>
-    <script src="js/main.js"></script>
-
+        </div>
+    </footer>
 </body>
+
+</html>
