@@ -15,47 +15,52 @@
 
 <body>
     <div class="body-container-wrapper">
-        <header id="header-purple" class="header-purple">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <a href="index.html"><img src="images/LOGOWhite.svg" alt="ideanation-logo" id="logo"></a>
+        <header id="header" class="fixed-top header-purple">
+            <div class="container d-flex align-items-center justify-content-between">
+                <h1> <a href="index.html"><img src="images/LOGOWhite.svg" alt="ideanation-logo" id="logo"></a></h1>
+                <nav id="navbar" class="navbar">
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_1">About Us</a>
-                            </li>
+                    <button class="navbar-toggler button_close" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true"
+                        aria-label="Toggle navigation" id="close" style="display: none;">
+                        <span class="btn-close btn-close-white"></span>
+                    </button>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_2">Gallery</a>
-                            </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_3">Documents</a>
-                            </li>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#section_1">About Us</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_4">News</a>
-                            </li>
+                        <li>
+                            <a class="nav-link" href="#section_2">Gallery</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_5">Library</a>
-                            </li>
+                        <li>
+                            <a class="nav-link" href="#section_3">Documents</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_6">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn custom-btn ms-auto me-4" href="#section_6">Be an ideanator</a>
-                            </li>
-                        </ul>
+                        <li>
+                            <a class="nav-link" href="#section_4">News</a>
+                        </li>
 
-                    </div>
+                        <li>
+                            <a class="nav-link" href="#section_5">Library</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link" href="#section_6">Contact</a>
+                        </li>
+                        <li>
+                            <a class="btn-link" href="#section_6">Be an ideanator</a>
+                        </li>
+                    </ul>
+
 
                 </nav>
             </div>
@@ -172,6 +177,20 @@
                     </div>
                 </div>
             </div>
+            <script src="js/lib/jquery-3.3.1.min.js"></script>
+            <script src="js/lib/bootstrap.min.js"></script>
+            <script src="js/lib/magnific-popup.js"></script>
+            <script src="js/lib/jquery.validate.min.js"></script>
+            <script src="js/lib/slick.min.js"></script>
+            <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="js/lib/kinetic.js"></script>
+            <script type="text/javascript" src="js/lib/jquery.final-countdown.js"></script>
+            <script src="js/lib/query.sticky.js"></script>
+            <script src="js/lib/click-scroll.js"></script>
+            <script src="js/lib/custom.js"></script>
+            <script src="js/lib/countdown.js"></script>
+            <script src="js/main.js"></script>
         </footer>
     </div>
 </body>

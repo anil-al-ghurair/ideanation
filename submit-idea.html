@@ -8,55 +8,59 @@
     <title>Ideanation - Know More</title>
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="css/footer.css" rel="stylesheet">
+
 
 </head>
 
 <body>
     <div class="body-container-wrapper">
-        <header id="header-purple" class="header-purple">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg">
-                    <a href="index.html"><img src="images/LOGOWhite.svg" alt="ideanation-logo" id="logo"></a>
+        <header id="header" class="fixed-top header-purple">
+            <div class="container d-flex align-items-center justify-content-between">
+                <h1> <a href="index.html"><img src="images/LOGOWhite.svg" alt="ideanation-logo" id="logo"></a></h1>
+                <nav id="navbar" class="navbar">
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="hamburger">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_1">About Us</a>
-                            </li>
+                    <button class="navbar-toggler button_close" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true"
+                        aria-label="Toggle navigation" id="close" style="display: none;">
+                        <span class="btn-close btn-close-white"></span>
+                    </button>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_2">Gallery</a>
-                            </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_3">Documents</a>
-                            </li>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#section_1">About Us</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_4">News</a>
-                            </li>
+                        <li>
+                            <a class="nav-link" href="#section_2">Gallery</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_5">Library</a>
-                            </li>
+                        <li>
+                            <a class="nav-link" href="#section_3">Documents</a>
+                        </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll inactive" href="#section_6">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="btn custom-btn ms-auto me-4" href="#section_6">Be an ideanator</a>
-                            </li>
-                        </ul>
+                        <li>
+                            <a class="nav-link" href="#section_4">News</a>
+                        </li>
 
-                    </div>
+                        <li>
+                            <a class="nav-link" href="#section_5">Library</a>
+                        </li>
+
+                        <li>
+                            <a class="nav-link" href="#section_6">Contact</a>
+                        </li>
+                        <li>
+                            <a class="btn-link" href="#section_6">Be an ideanator</a>
+                        </li>
+                    </ul>
+
 
                 </nav>
             </div>
@@ -65,46 +69,49 @@
             <div class="submit__idea-container">
                 <div class="submit__idea-row">
                     <div class="container">
-                        <h2 class="submit__title">
-                            Ponder.. Create.. Ideate!
-                        </h2>
-                        <form action="" id="submitForm">
-                            <div class="form_field">
-                                <label for="name">name</label>
-                                <input id="name" name="name" type="text" class="name" data-required=" name is required"
-                                    data-alphabetsnspace="Please Enter Only Letters"
-                                    data-minLength="Your name must consist of at least 2 characters"></input>
-                            </div>
-                            <div class="form_field">
-                                <label for="email">email</label>
-                                <input id="email" name="email" type="text" class="email"
-                                    data-required=" email is required"></input>
-                            </div>
-                            <div class="form_field">
-                                <label for="unit">business unit</label>
-                                <input id="unit" name="unit" type="text" class="unit"
-                                    data-required=" This field is required"></input>
-                            </div>
-                            <div class="form_field">
-                                <label for="phone">Phone</label>
-                                <input id="phone" name="phone" type="text" class="phone"
-                                    data-required=" This field is required"></input>
-                            </div>
-                            <div class="form_field wd-100 clearfix">
-                                <label for="idea">Please articulate the idea</label>
-                                <textarea name="" id="" cols="30" rows="5"></textarea>
-                            </div>
-                            <div class="form_field wd-100 clearfix">
-                                <label for="idea">What is the Solution Output and Success Criteria expected</label>
-                                <textarea name="" id="" cols="30" rows="5"></textarea>
-                            </div>
-                            <div class="form_field wd-100 clearfix">
-                                <label for="value">What value will it bring to business</label>
-                                <textarea name="" id="" cols="30" rows="5"></textarea>
-                            </div>
-                            <input class=" button__cls clearfix" type="submit" value="submit" id="submit__idea">
-                            <input class=" button__cls clearfix" type="submit" value="cancel" id="cancel__idea">
-                        </form>
+                        <div class="form-row" style="margin-top: 80px;">
+                            <h2 class="submit__title">
+                                Ponder.. Create.. Ideate!
+                            </h2>
+                            <form action="" id="submitForm">
+                                <div class="form_field">
+                                    <label for="name">name</label>
+                                    <input id="name" name="name" type="text" class="name"
+                                        data-required=" name is required"
+                                        data-alphabetsnspace="Please Enter Only Letters"
+                                        data-minLength="Your name must consist of at least 2 characters"></input>
+                                </div>
+                                <div class="form_field">
+                                    <label for="email">email</label>
+                                    <input id="email" name="email" type="text" class="email"
+                                        data-required=" email is required"></input>
+                                </div>
+                                <div class="form_field">
+                                    <label for="unit">business unit</label>
+                                    <input id="unit" name="unit" type="text" class="unit"
+                                        data-required=" This field is required"></input>
+                                </div>
+                                <div class="form_field">
+                                    <label for="phone">Phone</label>
+                                    <input id="phone" name="phone" type="text" class="phone"
+                                        data-required=" This field is required"></input>
+                                </div>
+                                <div class="form_field wd-100 clearfix">
+                                    <label for="idea">Please articulate the idea</label>
+                                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                                </div>
+                                <div class="form_field wd-100 clearfix">
+                                    <label for="idea">What is the Solution Output and Success Criteria expected</label>
+                                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                                </div>
+                                <div class="form_field wd-100 clearfix">
+                                    <label for="value">What value will it bring to business</label>
+                                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                                </div>
+                                <input class="form_button button_submit" type="submit" value="Submit">
+                                <input class="form_button button_cancel" type="submit" value="Cancel">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,6 +174,20 @@
                 </div>
             </div>
         </div>
+        <script src="js/lib/jquery-3.3.1.min.js"></script>
+        <script src="js/lib/bootstrap.min.js"></script>
+        <script src="js/lib/magnific-popup.js"></script>
+        <script src="js/lib/jquery.validate.min.js"></script>
+        <script src="js/lib/slick.min.js"></script>
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/lib/kinetic.js"></script>
+        <script type="text/javascript" src="js/lib/jquery.final-countdown.js"></script>
+        <script src="js/lib/query.sticky.js"></script>
+        <script src="js/lib/click-scroll.js"></script>
+        <script src="js/lib/custom.js"></script>
+        <script src="js/lib/countdown.js"></script>
+        <script src="js/main.js"></script>
     </footer>
 </body>
 
