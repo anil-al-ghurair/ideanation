@@ -1234,7 +1234,8 @@ div[data-automation-id=pageHeader] {
     line-height: 21px;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    position: relative
+    position: relative;
+    font-family: 'GillSans', sans-serif;
 }
 
 #footer .footer-top h4:before {
@@ -1284,7 +1285,8 @@ div[data-automation-id=pageHeader] {
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
-    text-decoration: none
+    text-decoration: none;
+    font-family: 'GillSans', sans-serif;
 }
 
 #footer .credits {
@@ -4687,7 +4689,8 @@ div#home {
 }
 
 #navbarNav>ul>li>a {
-    color: #ffffff
+    color: #ffffff;
+    font-family: "GillSans", "sans-serif";
 }
 
 .tab-content {
