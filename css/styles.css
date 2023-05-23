@@ -5471,3 +5471,19 @@ screen and (max-height: 300px) {
     top: 10px;
     right: 20px;
 }
+
+@media (min-width: 993px) {
+    #__main {
+        margin-top: 83px;
+        display: flex;
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 992px) {
+    #__main {
+        margin-top: 62px;
+        display: flex;
+        min-height: 100vh;
+    }
+}
