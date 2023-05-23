@@ -4965,6 +4965,10 @@ div#home {
     display: block
 }
 
+.countdown-btn>i {
+    margin-right: 5px;
+}
+
 .mfp-bg {
     top: 0;
     left: 0;
