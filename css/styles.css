@@ -5477,6 +5477,7 @@ screen and (max-height: 300px) {
         margin-top: 83px;
         display: flex;
         min-height: 100vh;
+        flex-direction: column;
     }
 }
 
@@ -5485,5 +5486,6 @@ screen and (max-height: 300px) {
         margin-top: 62px;
         display: flex;
         min-height: 100vh;
+        flex-direction: column;
     }
 }
