@@ -4830,6 +4830,16 @@ div#home {
     font-family: 'GillSans', sans-serif;
 }
 
+@media (max-width: 469px) {
+    .countdown-section {
+        position: fixed;
+        bottom: 40px;
+        right: 0px;
+        width: 45% !important;
+        font-family: 'GillSans', sans-serif;
+    }
+}
+
 .countdown-section>.container {
     margin-right: 0%
 }
@@ -5473,33 +5483,20 @@ screen and (max-height: 300px) {
 }
 
 @media (min-width: 993px) {
-
-    #__main>.container,
-    #__main>.course__container,
-    #__main>.gallery-Container,
-    #__main>.events_container,
-    #__main>.gallery__container,
-    #__main>.learning__container,
-    #__main>.submit__idea-container {
+    #__main>div:not(#home) {
         margin-top: 83px;
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
     }
 }
 
 @media (max-width: 992px) {
 
-    #__main>.container,
-    #__main>.course__container,
-    #__main>.gallery-Container,
-    #__main>.events_container,
-    #__main>.gallery__container,
-    #__main>.learning__container,
-    #__main>.submit__idea-container {
+    #__main>div:not(#home) {
         margin-top: 62px;
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
     }
+}
+
+#__main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
